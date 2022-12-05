@@ -17,9 +17,9 @@ Run the following two commands
 'docker build -t my-apache2 .'
 'docker run -dit --name example-app -p 8080:80 my-apache2'
 #### How to view the running containter
-If you ran the container on a local device, then simply open a browser and type 'localhost:8080' and hit enter
-If you ran the container in a instance you'll need the IP the instance uses and type the same command but replace' 'localhost' with the IP address followed by 8080
-### Github Actions and DockerHub
+If you ran the container on a local device, then simply open a browser and type 'localhost:8080' or whatever your private IP is followed by 8080.
+If you are using a proxy you can only use a localhost:8080 to view the page.
+### Part 2. Github Actions and DockerHub
 #### Creating a Repo
 To create a public repo on dockerhub, login and head to the repositories tab near the top, then select 'Create repository'. There you will give it a name and an optional description, also here is where you can set your repo to be public or private.
 #### How to Login via CLI
