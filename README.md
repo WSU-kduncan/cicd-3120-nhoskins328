@@ -3,7 +3,7 @@
 ### Part 1. Dockerize it
 #### How to Install Docker
 First you want to use sudo apt-get update
-Then you'll want to use sudo apt-get install docker
+Then you'll want to use sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 To verify run the command sudo docker run hello-world
 #### How to setup a Dockerfile
 Once Docker is all set up you can begin to use images such as httpd
