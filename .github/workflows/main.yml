@@ -39,9 +39,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-<<<<<<< HEAD
           tags: ${{ secrets.DOCKER_USERNAME }}/website_repo:latest
-=======
-          tags: ${{ secrets.DOCKER_USERNAME }}/websote_repo:latest
->>>>>>> 46e498abbb02fad2bf3e7221b56ccffa29634d03
-          labels: ${{ steps.meta.outputs.labels }}
