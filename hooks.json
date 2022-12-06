@@ -1,0 +1,7 @@
+[
+  {
+     "id": "pizza",
+     "execute-command": "/home/ubuntu/cicd-3120-nhoskins328/refresh.sh",
+     "command-working-directory": "/var/webhook"
+  }
+]
