@@ -56,7 +56,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ steps.meta.outputs.tags }}
-          
-      -  name: Refresh script
-         run: ./refresh.sh
       
