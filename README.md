@@ -54,4 +54,5 @@ Next is the [Service] section you also need two lines here.
  To setup a notifier on dockerhub go to your dockerhub repository and click the section called webhooks.
  There you can give a name for the webhook and also provide the url the webhook will use, i.e. 'http://0.0.0.0:9000/hooks/name.
  After that your webhook should be ready.
- 
+ ### Part 4. Diagramming
+ ![diagram](https://user-images.githubusercontent.com/97637746/205794212-f549e21b-85a6-4cb3-831f-a8526a84af1d.PNG)
